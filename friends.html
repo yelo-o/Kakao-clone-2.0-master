@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/styles.css" />
+    
     <title>Friends | Kakao Clone</title>
 </head>
 
 <body>
  <div class="status-bar">
-     <span class="status-bar__clock"></span>
      <div class="status-bar__column">
          <span class="status-bar__clock">13:54</span>
      </div>
@@ -37,57 +37,57 @@
     </header>   
     <main class="friends">
         <header class="friends__header">
-            <div class="friends__friend friend friend--lg"> <!-- independent friend -->
+            <div class="friends__friend friend"> <!-- independent friend -->
                 <div class="friend__column">
-                    <img src="images/avatar.jpg" class="g-avatar friend__avatar" /> 
+                    <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
                     <div class="friend__content">
-                        <span class="firend__name">
+                        <span class="friend__name">
                             yelo-o
                         </span>
                         <span class="friend__status">
                             nomadcoders.co
                         </span>
-                    </div>   
+                    </div>
                 </div>
             </div> 
         </header>
         <div class="friends__plus">
             <h5 class="friends__title">Plus friend</h5>
-            <div class="friends__friend friend"> <!-- independent friend -->
-                <div class="friend_column">
-                <img src="images/avatar.jpg" class="g-avatar friend__avatar" /> 
-                <div class="friend__content">
-                    <span class="firend__name">
-                        Plus Friend
-                    </span>
+            <div class="friends__friend friend"><!-- independent friend -->
+                <div class="friend__column">
+                    <img src="images/avatar.jpg" class="friend__avatar" />
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            Plus Friend
+                        </span>
+                    </div>
                 </div>
             </div>
-            </div> 
         </div>
         <ul class="friends__list">
-           <h5 class="friends__title">Friends 14</h5> 
-        <li class="friends__friend friend friend--lg">  <!-- independent friend -->
-            <div class="friend__column">
-                <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
-                <div class="friend__content">
-                    <span class="firend__name">
-                        yelo-o
-                    </span>
-                    <span class="friend__status">
-                        nomadcoders.co
-                    </span>
+            <h5 class="friends__title">Friends 14</h5>
+            <li class="friends__friend friend friend--lg">
+                <!-- independent friend -->
+                <div class="friend__column">
+                    <img src="images/avatar.jpg" class="friend__avatar" />
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            yelo-o
+                        </span>
+                        <span class="friend__status">
+                            nomadcoders.co
+                        </span>
+                    </div>
                 </div>
-            </div>
-            <div class="friend-column">
-                <div class="friend__now-listening">
-                   <span> FTISLAND (FT NomadCoders)</span>
-                   <i class="fas fa-play"></i>
+                <div class="friend-column">
+                    <div class="friend__now-listening">
+                        <span> FTISLAND (FT NomadCoders)
+                            <i class="fas fa-play"></i>
+                        </span>
+                        
+                    </div>
                 </div>
-            </div>
-        </li>
-           
-           </div>
-        </div> 
+            </li>
         </ul>
     </main>
     <nav class="nav">
@@ -112,5 +112,8 @@
         </li>
         </ul>
     </nav>
+    <div class="bigScreen">
+        <span class="BigScreen__text">Please make your screen small!</span>
+    </div>
 </body>
 </html>
